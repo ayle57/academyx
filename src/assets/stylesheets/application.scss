@@ -1,0 +1,23 @@
+
+// --- Config Files
+@import 'config/imports';
+@import 'config/variables';
+@import 'config/reset';
+
+// --- Containers Files
+@import 'containers/main';
+
+// --- Layouts Files
+@import 'layouts/navbar';
+@import 'layouts/home';
+@import 'layouts/phone';
+@import 'layouts/animations';
+@import 'layouts/product';
+@import 'layouts/payment';
+@import 'layouts/affiliation';
+@import 'layouts/faq';
+@import 'layouts/reseller';
+@import 'layouts/footer';
+
+// --- Components Files
+@import 'components/btn';

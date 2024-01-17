@@ -1,0 +1,189 @@
+section.faq {
+  div.faq-inner {
+    padding: 0 10%;
+    div.faq__header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20vh;
+      margin-bottom: 5vh;
+
+      h2 {
+        color: #FFF;
+        text-align: center;
+
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+        margin-top: 10px;
+      }
+
+      p {
+        max-width: 60%;
+        color: #8B7F7F;
+        text-align: center;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+
+    div.faq__body {
+      display: flex;
+      justify-content: center;
+      padding: 0 10%;
+      flex-direction: column;
+
+      div.faq-question-item {
+        border-bottom: 1px solid $grey;
+        &:nth-child(9) {
+          border: none;
+        }
+        margin-bottom: 20px;
+        transition: .2s;
+
+        div.faq-question-item-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+
+          button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            transition: .2s;
+            background: none;
+            border: none;
+
+            h6 {
+              color: #FFF;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 28px;
+            }
+          }
+
+        }
+
+        div.faq-question-item-footer {
+          padding-bottom: 20px;
+          transition: .2s;
+          p {
+            color: #8B7F7F;
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+    div.faq__footer {
+      margin: 20px 10%;
+      display: flex;
+      padding: var(--spacing-4xl, 32px) var(--spacing-4xl, 32px) var(--spacing-5xl, 40px) var(--spacing-4xl, 32px);
+      flex-direction: column;
+      align-items: center;
+      gap: var(--spacing-4xl, 32px);
+      align-self: stretch;
+      border-radius: var(--spacing-xl, 16px);
+      background: #1F1715;
+      h3 {
+        color: #FFF;
+        text-align: center;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+      }
+      p {
+        color: #8B7F7F;
+        text-align: center;
+
+        width: 85%;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+
+      a {
+        display: flex;
+        padding: var(--spacing-lg, 12px) 18px;
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-sm, 6px);
+        border-radius: var(--radius-md, 8px);
+        border: 1px solid var(--Gradiant, #FA9E13);
+        background: var(--Gradiant, linear-gradient(90deg, #FA9E13 0.1%, #FFC701 99.92%));
+
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+        color: #1F1715;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        transition: .3s;
+        &:hover {
+          transform: scale(0.98);
+        }
+      }
+    }
+  }
+}
+
+.faq-toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.faq-toggle-button img {
+  display: inline-block;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.faq-toggle-button.open img {
+  animation: rotate .4s ease-in-out;
+  transform: rotate(360deg);
+}
+
+.faq-question-item-footer {
+  max-height: 1px;
+}
+
+.faq-question-item-footer p {
+  opacity: 0;
+  transition: .4s;
+}
+
+.faq-question-item-footer.open {
+  max-height: 500px;
+  p {
+    opacity: 1;
+  }
+}

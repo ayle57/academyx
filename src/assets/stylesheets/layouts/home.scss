@@ -1,0 +1,57 @@
+section.home {
+  div.home-inner {
+    background: url('images/Backgrounds/HomeMask.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    div.home-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      div.mini-buttons-container {
+        span {
+          margin-right: 5px;
+        }
+        margin-bottom: 20px;
+      }
+      h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+        gap: var(--spacing-xl, 16px);
+        padding: var(--spacing-none, 0px);
+        margin-bottom: 10px;
+        span {
+          background: linear-gradient(267deg, #FFB710 8.95%, #FFC301 8.95%, #FFA722 96.63%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      p {
+        margin: var(--spacing-3xl, 24px) auto;
+        width: 50%;
+        color: #8B7F7F;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+      }
+    }
+  }
+}

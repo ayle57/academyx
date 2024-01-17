@@ -1,0 +1,87 @@
+
+@keyframes top-bottom-right {
+  0%, 100% {
+    transform:  translateX(35vh) translateY(8%);
+  }
+  50% {
+    transform:  translateX(35vh) translateY(-8%);
+  }
+}
+
+@keyframes top-bottom-left {
+  0%, 100% {
+    transform: translateX(-40vh) translateY(8%);
+  }
+  50% {
+    transform: translateX(-40vh) translateY(-8%);
+  }
+}
+
+@keyframes vip {
+  0%, 100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+section.phone {
+  div.phone-inner {
+    div.coin1 {
+      display: inline-block;
+      animation: top-bottom-right 4s ease-in-out infinite;
+    }
+
+    div.phone {
+      display: inline-block;
+      animation: vip 4s ease-in-out infinite;
+    }
+
+    div.coin2 {
+      display: inline-block;
+      animation: top-bottom-left 4s ease-in-out infinite;
+    }
+  }
+}
+/*
+.reveal [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal-visible [class*="reveal-"] {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-visible .reveal-2 {
+  transition-delay: .15s;
+}
+
+.reveal-visible .reveal-3 {
+  transition-delay: .25s;
+}
+
+.reveal-visible .reveal-4 {
+  transition-delay: .35s;
+}
+
+.reveal-visible .reveal-5 {
+  transition-delay: .45s;
+}
+
+.reveal-visible .reveal-6 {
+  transition-delay: .55s;
+}
+.reveal-visible .reveal-7 {
+  transition-delay: .65s;
+}
+.reveal-visible .reveal-8 {
+  transition-delay: .75s;
+}
+.reveal-visible .reveal-9 {
+  transition-delay: .85s;
+}
+ */

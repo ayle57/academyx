@@ -1,0 +1,19 @@
+
+.main {
+  background: url('images/grid/GridMask.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &.right {
+    background: url('images/grid/GridMaskTer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &.left {
+    background: url('images/grid/GridMaskBis.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+  }
+}

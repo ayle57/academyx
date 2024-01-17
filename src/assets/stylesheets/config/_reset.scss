@@ -1,0 +1,36 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font: {
+    family: $font_sans;
+    weight: $font_weight;
+    size: $font_size;
+    style: $font_style;
+  }
+  color: $white;
+  background: $black_grey;
+
+  line-height: $line_height;
+  text: {
+    decoration: $text_decoration;
+    transform: $text_transform;
+  }
+}
+
+// --- Reset Components
+a {
+  text-decoration: $text-decoration;
+}
+
+ul, ol, li {
+  list-style: $list_style;
+}
+
+html {
+  scroll-behavior: smooth;
+}
