@@ -45,7 +45,7 @@ const Affiliation = () => {
                             </div>
                         </div>
                         <div className="container reveal-6">
-                            <a href="#">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-PP12DdMeOH9Tlbbh0lwkulsEA0EZEnfbYEXOdN1tGpx87A/viewform?usp=pp_url" target="blank">
                                 Postuler ici <img src="images/icons/tools/toll.png" alt=""/>
                             </a>
                         </div>

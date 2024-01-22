@@ -1,19 +1,19 @@
 
 @keyframes top-bottom-right {
   0%, 100% {
-    transform:  translateX(35vh) translateY(8%);
+    transform:  translateX(35vh) translateY(10%);
   }
   50% {
-    transform:  translateX(35vh) translateY(-8%);
+    transform:  translateX(35vh) translateY(-10%);
   }
 }
 
 @keyframes top-bottom-left {
   0%, 100% {
-    transform: translateX(-40vh) translateY(8%);
+    transform: translateX(-40vh) translateY(-30%);
   }
   50% {
-    transform: translateX(-40vh) translateY(-8%);
+    transform: translateX(-40vh) translateY(-10%);
   }
 }
 
@@ -30,7 +30,7 @@ section.phone {
   div.phone-inner {
     div.coin1 {
       display: inline-block;
-      animation: top-bottom-right 4s ease-in-out infinite;
+      animation: top-bottom-right 3s ease-in-out infinite;
     }
 
     div.phone {
@@ -44,7 +44,7 @@ section.phone {
     }
   }
 }
-/*
+
 .reveal [class*="reveal-"] {
   opacity: 0;
   transform: translateY(30px);
@@ -84,4 +84,3 @@ section.phone {
 .reveal-visible .reveal-9 {
   transition-delay: .85s;
 }
- */

@@ -17,7 +17,7 @@ const FAQ = () => {
                         F.A.Q.
                     </span>
                     <h2 className="reveal-2">
-                        🤔 Questions fréquemment posées
+                        Questions fréquemment posées
                     </h2>
                     <p className="reveal-3">
                         Tout ce que vous devez savoir sur notre outil.
@@ -34,7 +34,7 @@ const FAQ = () => {
                                 >
                                     <h6>{item.question}</h6>
                                     <img
-                                        src={`images/Icons/${expandedItems[index] ? 'minus' : 'plus'}-circle.svg`}
+                                        src={`../images/icons/svg/${expandedItems[index] ? 'minus' : 'plus'}-circle.svg`}
                                         alt=""
                                     />
                                 </button>
@@ -58,7 +58,7 @@ const FAQ = () => {
                         Vous ne trouvez pas la réponse que vous cherchez ?
                     </p>
                     <div className="container reveal-3">
-                        <a href="#">
+                        <a href="https://academyx-online.systeme.io/contact">
                             Nous contacter
                         </a>
                     </div>
@@ -82,7 +82,7 @@ const faqData = [
         answer: 'Il y a un certain nombre de variable que vous pourrez modifier sur les outils afin de les paramétrer comme bon vous semble.',
     },
     {
-        question: 'Est-ce que vos outils sont adaptés aux traders débutants ou sont-ils plus orientés vers des utilisateurs expérimentés?',
+        question: 'Est-ce que vos outils sont adaptés aux traders débutants?',
         answer: 'Nos outils sont conçus pour une utilisation professionnel, mais nous ne sommes pas responsable de l\'utilisation que vous en aurez. Pour autant, nous avons fais tous notre possible pour rendre leurs utilisation simple et efficace.',
     },
     {

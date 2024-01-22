@@ -17,19 +17,19 @@ const Footer = () => {
                 <ul className="footer-social reveal-2">
                     <li className="reveal-2">
                         <a href="https://www.instagram.com/academyxonline/" target="blank">
-                            <img src="images/Icons/instagram.svg" alt=""/>
+                            <img src="../images/icons/socials/instagram.svg" alt=""/>
                             Instagram
                         </a>
                     </li>
                     <li className="reveal-3">
                         <a href="https://www.tiktok.com/@academyx.online?_t=8j0Mjg2BVK5&_r=1" target="blank">
-                            <img src="images/Icons/tiktok.svg" alt=""/>
+                            <img src="../images/icons/socials/tiktok.svg" alt=""/>
                             TikTok
                         </a>
                     </li>
                     <li className="reveal-4">
                         <a href="https://t.me/AcademyXOnline" target="blank">
-                            <img src="images/Icons/telegram.svg" alt=""/>
+                            <img src="../images/icons/socials/telegram.svg" alt=""/>
                             Telegram
                         </a>
                     </li>

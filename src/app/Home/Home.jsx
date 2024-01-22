@@ -20,7 +20,7 @@ const Home = () => {
                             </span>
                     </div>
                     <h1 className="reveal-1">
-                        AcademyX Online : La <span>Puissance Cumulée</span> à Votre Service !
+                        AcademyX Online : La <span>Puissance<br/> Cumulée</span> à Votre Service !
                     </h1>
                     <p className="reveal-2">
                         Décuplez vos performances de trading avec notre suite d'outils d'analyse avancée, regroupant

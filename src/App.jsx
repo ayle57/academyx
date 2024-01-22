@@ -1,41 +1,31 @@
 import './assets/stylesheets/application.css';
-import Navbar from "./app/Navbar/Navbar.jsx";
-import Home from "./app/Home/Home.jsx";
-import Phone from "./app/Phone/Phone.jsx";
-import Product from "./app/Product/Product.jsx";
-import Payment from "./app/Payment/Payment.jsx";
-import Affiliation from "./app/Affiliation/Affiliation.jsx";
-import FAQ from "./app/FAQ/FAQ.jsx";
-import Reseller from "./app/Reseller/Reseller.jsx";
-import Footer from "./app/Footer/Footer.jsx";
+import {Observer} from "./observer.js";
+import {useEffect} from "react";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Router from "./Router.jsx";
+import Legals from "./app/Legals/Legals.jsx";
+import Disclaimer from "./app/Legals/Disclaimer.jsx";
+import Mentions from "./app/Legals/Mentions.jsx";
+import CGU from "./app/Legals/CGU.jsx";
+import CGV from "./app/Legals/CGV.jsx";
 
 function App() {
+    useEffect(() => {
+        Observer();
+    }, []);
     return (
-        <>
-            <Navbar/>
-
-            <div className="main">
-                <Home/>
-
-                <Phone/>
+        <BrowserRouter>
+            <div>
+                <Routes>
+                    <Route path="/" element={<Router />} />
+                    <Route path="/legals" element={<Legals />} />
+                    <Route path="/disclaimer" element={<Disclaimer />} />
+                    <Route path="/mentions" element={<Mentions />} />
+                    <Route path="/cgu" element={<CGU />} />
+                    <Route path="/cgv" element={<CGV />} />
+                </Routes>
             </div>
-
-            <div className="main right">
-                <Product />
-
-                <Payment />
-
-                <Affiliation />
-            </div>
-
-            <div className="main left">
-                <FAQ />
-
-                <Reseller />
-            </div>
-
-            <Footer />
-        </>
+        </BrowserRouter>
     )
 }
 

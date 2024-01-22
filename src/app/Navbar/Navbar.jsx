@@ -66,7 +66,7 @@ function Navbar() {
                     <img src="images/icons/tools/menu.png" alt=""/>
                 </a>
                 <div className="navbar-button reveal-3">
-                    <a href="" className="btn btn-phantom">
+                    <a href="/#subscription" className="btn btn-phantom">
                         Bénéficier de -15% de réduction
                     </a>
                 </div>
@@ -103,7 +103,7 @@ function Navbar() {
                     </ul>
                     <div className="navbar-button">
                         <a href="/#subscription" className="btn btn-phantom">
-                            🥳 Bénéficier de -15% de réduction
+                            Bénéficier de -15% de réduction
                         </a>
                     </div>
                 </div>

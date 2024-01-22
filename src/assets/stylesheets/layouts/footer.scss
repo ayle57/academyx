@@ -1,4 +1,6 @@
 footer {
+  z-index: 1000;
+  background: $black_grey;
   border-top: 1px solid $grey;
   padding: 60px 10%;
   display: flex;

@@ -24,8 +24,8 @@ const Payment = () => {
                         </div>
                         <div className="payment-item-body">
                             <h6>Plan mensuel</h6>
-                            <h2>69.99€/mois</h2>
-                            <small>Hors Taxes</small>
+                            <h2>79.99€/mois</h2>
+                            <small>Toutes taxes comprise</small>
                         </div>
                         <div className="payment-item-footer">
                             <a href="https://academyx-online.systeme.io/mensuel" className="payment-btn">
@@ -43,8 +43,8 @@ const Payment = () => {
                         </div>
                         <div className="payment-item-body">
                             <h6>Plan annuel <span>Réduction -15%</span></h6>
-                            <h2>714.99€/an</h2>
-                            <small>Hors Taxes</small>
+                            <h2>814.99€/an</h2>
+                            <small>Toutes taxes comprise</small>
                         </div>
                         <div className="payment-item-footer">
                             <a href="https://academyx-online.systeme.io/annuel" className="payment-btn payment-btn-phantom">

@@ -1,19 +1,21 @@
 
 .main {
-  background: url('images/grid/GridMask.png');
+  background: url('../images/grid/GridMask.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-size: 75%;
+
   &.right {
-    background: url('images/grid/GridMaskTer.png');
+    background: url('../images/grid/GridMaskBis.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: center left;
+    background-size: 45%;
+    background-origin: border-box;
   }
   &.left {
-    background: url('images/grid/GridMaskBis.png');
+    background: url('../images/grid/GridMaskTer.svg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom right;
+    background-size: 45%;
   }
 }
