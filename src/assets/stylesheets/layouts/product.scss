@@ -1,6 +1,8 @@
 @import 'slider';
 section.features {
   div.features-inner {
+    display: block;
+    height: 100%;
     margin: 0 0 1vh 0;
     div.features__header {
       width: 100%;

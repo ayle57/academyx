@@ -31,7 +31,7 @@ function Navbar() {
                 <div className="navbar-header">
                     <div className="navbar-brand">
                         <a href="/">
-                            <img src="images/logo.png" alt=""/>
+                            <img src="images/logo.svg" alt=""/>
                         </a>
                     </div>
                     <ul className="navbar-links reveal-2">

@@ -1,7 +1,7 @@
 section.payment {
   div.payment-inner {
     margin: 0 0 5vh 0;
-    padding: 15vh 10%;
+    padding: 10vh 10%;
     height: 100vh;
     position: relative;
     display: flex;
@@ -26,7 +26,7 @@ section.payment {
       right: 95%;
       width: 30%;
       height: 30%;
-      opacity: 0.6;
+      opacity: 0.8;
       background: var(--Gradiant, linear-gradient(90deg, #FA9E13 0.1%, #FFC701 99.92%));
       filter: blur(110px);
     }

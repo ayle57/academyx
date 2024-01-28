@@ -15,7 +15,7 @@ const Affiliation = () => {
 
                 <div className="affiliation__body reveal">
                     <div className="affiliation-body-chart reveal-1">
-                        <img src="images/charts/chart.png" alt=""/>
+                        <img src="images/charts/chart.svg" alt=""/>
                     </div>
                     <div className="affiliation-body-cards">
                         <div className="affiliation-card-container">
@@ -27,7 +27,7 @@ const Affiliation = () => {
                                     Remplissez le formulaire d'affiliation et créer votre compte sur notre plateforme partenaire.
                                 </p>
                             </div>
-                            <div className="affiliation-card-item reveal-3">
+                            <div className="affiliation-card-item reveal-2">
                                 <h5>
                                     Etape 2 - Partagez à vos filleuls
                                 </h5>
@@ -35,16 +35,16 @@ const Affiliation = () => {
                                     Parlez de nous autour de vous afin de bénéficier de 20% de commission sur chacun des abonnement de vos filleuls.
                                 </p>
                             </div>
-                            <div className="affiliation-card-item reveal-5">
+                            <div className="affiliation-card-item reveal-3">
                                 <h5>
                                     Etape 3 - Récupérez vos gains
                                 </h5>
                                 <p>
-                                    Retirez vos gains dés que vous le souhaitez.
+                                    Retirez vos gains dès que vous le souhaitez.
                                 </p>
                             </div>
                         </div>
-                        <div className="container reveal-6">
+                        <div className="container reveal-4">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-PP12DdMeOH9Tlbbh0lwkulsEA0EZEnfbYEXOdN1tGpx87A/viewform?usp=pp_url" target="blank">
                                 Postuler ici <img src="images/icons/tools/toll.png" alt=""/>
                             </a>

@@ -87,7 +87,7 @@ const faqData = [
     },
     {
         question: 'Quelles plateformes de trading sont compatibles avec vos outils?',
-        answer: 'Nos outils ne sont fonctionnel que sur TradingView pour le moment.',
+        answer: 'Nos outils ne sont fonctionnels que sur TradingView pour le moment.',
     },
     {
         question: 'Qu\'est-ce qui distingue vos outils des autres disponibles sur le marché?',
@@ -103,7 +103,7 @@ const faqData = [
     },
     {
         question: 'Pouvons-nous demander un remboursement?',
-        answer: 'Une période d\'essaie de 14 jours est à votre disposition, réalisant une souscription à notre services, vous renoncez à votre droit de rétractation en vertu de l’article L121-21-8 du Code de la Consommation.'
+        answer: 'Une période d\'essaie de 14 jours est à votre disposition, en réalisant une souscription à notre services, vous renoncez à votre droit de rétractation en vertu de l’article L121-21-8 du Code de la Consommation.'
     }
 ];
 

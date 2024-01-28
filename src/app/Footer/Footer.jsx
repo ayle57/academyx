@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="footer-header reveal">
                 <div className="footer-credit reveal-1">
                     <div className="footer-credit-brands reveal-2">
-                        <img src="images/logo.png" alt=""/>
+                        <img src="images/logo.svg" alt=""/>
                     </div>
                     <nav className="footer-credit-nav reveal-3">
                         <a href="/#solution">Solution</a>

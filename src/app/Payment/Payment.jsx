@@ -51,7 +51,7 @@ const Payment = () => {
                                 Choisir le plan annuel
                             </a>
                             <p>
-                                Démarrer GRATUITEMENT l’essaie pendant 14 jours
+                                Démarrer GRATUITEMENT l’essai pendant 14 jours
                             </p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Payment = () => {
                             <br />
                         </div>
                         <div className="payment-item-footer">
-                            <a href="https://academyx-online.systeme.io/contact" className="payment-btn">
+                            <a href="https://forms.gle/epb1sq8an4t5jV8g6" className="payment-btn">
                                 Contacter l'équipe
                             </a>
                         </div>

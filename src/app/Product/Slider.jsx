@@ -9,7 +9,7 @@ const Slider = () => {
 
     const sliderItems = [
         {
-            title: 'Algorithme Prédictive Révolutionnaire',
+            title: 'Algorithme Prédictif',
             description: 'Découvrez notre algorithme de trading doté d\'une capacité de prédiction exceptionnelle.',
             image: 'images/charts/chart1.png',
         },

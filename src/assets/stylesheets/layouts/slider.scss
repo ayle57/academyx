@@ -1,10 +1,10 @@
 // --- Slider
 section.slider div.slider-inner {
-  width: 100vw;
-  margin: 10vh auto;
+  height: 100%;
+  margin: 5vh auto;
   padding: 0 5%;
   max-width: 1500px;
-  max-height: 630px;
+  max-height: 830px;
   div.slider-header {
     display: flex;
     justify-content: center;
@@ -53,6 +53,7 @@ section.slider div.slider-inner {
       .content {
         display: inline-block;
         margin-top: 20px;
+        height: 100%;
         position: relative;
         padding: var(--spacing-xl, 16px) var(--spacing-lg, 12px);
         &::before {

@@ -34,7 +34,7 @@ html {
   background: url("../images/grid/GridMask.png");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 75%;
+  background-size: 85%;
 }
 .main.right {
   background: url("../images/grid/GridMaskBis.svg");
@@ -229,7 +229,7 @@ section.home div.home-inner div.home-container p {
 }
 
 section.section.phone div.phone-inner {
-  height: 90vh;
+  height: 110vh;
   padding: 5vh 0;
 }
 section.section.phone div.phone-inner div.phone-container {
@@ -321,7 +321,7 @@ section.phone div.phone-inner div.coin2 {
 .reveal-visible [class*=reveal-] {
   opacity: 1;
   transform: translateY(0);
-  transition: 1s cubic-bezier(0.5, 0, 0, 1);
+  transition: 0.8s cubic-bezier(0.5, 0, 0, 1);
 }
 
 .reveal-visible .reveal-2 {
@@ -357,11 +357,11 @@ section.phone div.phone-inner div.coin2 {
 }
 
 section.slider div.slider-inner {
-  width: 100vw;
-  margin: 10vh auto;
+  height: 100%;
+  margin: 5vh auto;
   padding: 0 5%;
   max-width: 1500px;
-  max-height: 630px;
+  max-height: 830px;
 }
 section.slider div.slider-inner div.slider-header {
   display: flex;
@@ -408,6 +408,7 @@ section.slider div.slider-inner div.slider-body div.slider-body-item.active .con
 section.slider div.slider-inner div.slider-body div.slider-body-item .content {
   display: inline-block;
   margin-top: 20px;
+  height: 100%;
   position: relative;
   padding: var(--spacing-xl, 16px) var(--spacing-lg, 12px);
 }
@@ -439,6 +440,8 @@ section.slider div.slider-inner div.slider-body div.slider-body-item .content p 
 }
 
 section.features div.features-inner {
+  display: block;
+  height: 100%;
   margin: 0 0 1vh 0;
 }
 section.features div.features-inner div.features__header {
@@ -470,7 +473,7 @@ section.features div.features-inner div.features__header p {
 
 section.payment div.payment-inner {
   margin: 0 0 5vh 0;
-  padding: 15vh 10%;
+  padding: 10vh 10%;
   height: 100vh;
   position: relative;
   display: flex;
@@ -494,7 +497,7 @@ section.payment div.payment-inner div.blur {
   right: 95%;
   width: 30%;
   height: 30%;
-  opacity: 0.6;
+  opacity: 0.8;
   background: var(--Gradiant, linear-gradient(90deg, #FA9E13 0.1%, #FFC701 99.92%));
   filter: blur(110px);
 }
@@ -615,7 +618,9 @@ section.payment div.payment-inner div.payment__body div.payment-item div.payment
 }
 
 section.affiliation div.affiliation-inner {
-  margin-top: 10vh;
+  height: 100%;
+  margin-top: 5vh;
+  padding: 20px 0;
 }
 section.affiliation div.affiliation-inner svg {
   stroke-width: 2px;
@@ -1189,6 +1194,143 @@ section.section.legals div.legals-inner div.legals__body .item ul li {
   letter-spacing: -0.4px;
 }
 
+body, section {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1300px) {
+  section.faq div.faq-inner div.faq__footer {
+    margin: 20px 0;
+  }
+  section.faq div.faq-inner div.faq__body {
+    padding: 0 5%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  section.home div.home-inner div.home-container p {
+    width: 100%;
+  }
+  section.payment div.payment-inner {
+    margin-top: 20px;
+  }
+  section.features div.features-inner {
+    height: auto;
+  }
+  section.features div.features-inner div.features__body section.slider div.slider-inner div.slider-body {
+    flex-direction: column;
+  }
+  section.features div.features-inner div.features__body section.slider div.slider-inner div.slider-body div.slider-body-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  section.features div.features-inner div.features__body section.slider div.slider-inner div.slider-body div.slider-body-item div.content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body {
+    flex-direction: column;
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body div.affiliation-body-chart {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body div.affiliation-body-cards {
+    margin-top: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  section.resellers div.resellers-inner div.resellers__body {
+    flex-direction: column;
+  }
+  section.resellers div.resellers-inner div.resellers__body div.resellers-body-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  section.resellers div.resellers-inner div.resellers__body div.resellers-body-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  section.faq div.faq-inner {
+    padding: 0 5%;
+  }
+  section.payment div.payment-inner {
+    padding: 15vh 2%;
+    height: auto;
+  }
+  section.payment div.payment-inner div.payment__body {
+    width: 100%;
+    flex-direction: column;
+  }
+  section.payment div.payment-inner div.payment__body div.payment-item {
+    margin-top: 30px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 825px) {
+  section.phone div.phone-inner {
+    display: none;
+  }
+  body section.features div.features-inner {
+    margin-top: 20px;
+  }
+  body section.features div.features-inner div.features__header p {
+    max-width: 100% !important;
+  }
+  body section.payment div.payment-inner div.payment__header p {
+    max-width: 100% !important;
+  }
+  body section.faq div.faq-inner div.faq__header p {
+    max-width: 100% !important;
+  }
+  footer {
+    padding: 50px 5%;
+  }
+  footer div.footer-footer nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer div.footer-footer nav a {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  section.home div.home-inner div.home-container h1 {
+    font-size: 45px;
+  }
+  section.home div.home-inner div.home-container a {
+    text-align: center;
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body div.affiliation-body-cards div.container a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  section.home div.home-inner div.home-container div.container p {
+    margin: 0 10px;
+  }
+  section.home div.home-inner div.home-container div.container a {
+    margin: 0 10px;
+  }
+  footer div.footer-footer p {
+    text-align: center;
+  }
+  footer div.footer-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer div.footer-header div.footer-credit nav.footer-credit-nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
 .btn {
   display: inline-block;
   padding: 10px var(--spacing-xl, 16px);
