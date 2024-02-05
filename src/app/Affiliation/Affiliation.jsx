@@ -32,7 +32,7 @@ const Affiliation = () => {
                                     Etape 2 - Partagez à vos filleuls
                                 </h5>
                                 <p>
-                                    Parlez de nous autour de vous afin de bénéficier de 20% de commission sur chacun des abonnement de vos filleuls.
+                                    Parlez de nous autours de vous afin de bénéficier de 20% de commission sur chacun des abonnements de vos filleuls.
                                 </p>
                             </div>
                             <div className="affiliation-card-item reveal-3">

@@ -1,0 +1,99 @@
+p.important {
+  font-weight: 800 !important;
+  color: #dcd8d8 !important;
+}
+.pad-15 {
+  padding: 10px 15px;
+}
+
+section.section.legals {
+  div.legals-inner {
+    div.legals__header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h2 {
+        color: #FFF;
+        text-align: center;
+
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+        margin-top: 10px;
+      }
+
+      p {
+        max-width: 65%;
+        color: #8B7F7F;
+        text-align: center;
+
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+
+    div.legals__body {
+      padding: 50px 10%;
+      .item {
+        padding: 15px 0;
+        h3 {
+          color: #FFF;
+          font-family: Inter;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%; /* 45px */
+          letter-spacing: -0.6px;
+        }
+        h4 {
+          color: #FFF;
+          font-family: Inter;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%; /* 45px */
+          letter-spacing: -0.6px;
+        }
+        h5 {
+          margin: 10px 0;
+          color: #FFF;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%; /* 45px */
+          letter-spacing: -0.6px;
+        }
+        p {
+          color: #8B7F7F;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 30px */
+          letter-spacing: -0.4px;
+        }
+        ul {
+          li {
+            list-style: circle;
+            color: #8B7F7F;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 30px */
+            letter-spacing: -0.4px;
+          }
+        }
+      }
+    }
+
+  }
+}

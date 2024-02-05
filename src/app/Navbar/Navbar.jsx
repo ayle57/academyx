@@ -6,7 +6,7 @@ function Navbar() {
 
     const handleResize = () => {
         const windowWidth = window.innerWidth;
-        const breakpoint = 1000;
+        const breakpoint = 1300;
         setIsBurger(windowWidth <= breakpoint);
     };
 
@@ -31,7 +31,7 @@ function Navbar() {
                 <div className="navbar-header">
                     <div className="navbar-brand">
                         <a href="/">
-                            <img src="images/logo.svg" alt=""/>
+                            <img src="images/logo.svg" alt="Logo d'academyx"/>
                         </a>
                     </div>
                     <ul className="navbar-links reveal-2">
@@ -60,10 +60,15 @@ function Navbar() {
                                 partenaire
                             </a>
                         </li>
+                        <li>
+                            <a href="https://linktr.ee/AcademyXOnline" target="blank">
+                                nous rejoindre
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <a className={`navbar-burger ${isBurger ? 'active' : ''}`} onClick={toggleBurger}>
-                    <img src="images/icons/tools/menu.png" alt=""/>
+                    <img src="images/icons/tools/menu.png" alt="Logo d'un menu burger"/>
                 </a>
                 <div className="navbar-button reveal-3">
                     <a href="/#subscription" className="btn btn-phantom">
@@ -98,6 +103,11 @@ function Navbar() {
                         <li>
                             <a href="/#affiliation">
                                 affiliation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linktr.ee/AcademyXOnline" target="blank">
+                                nous rejoindre
                             </a>
                         </li>
                     </ul>

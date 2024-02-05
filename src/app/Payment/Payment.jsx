@@ -11,10 +11,10 @@ const Payment = () => {
                         Abonnement
                     </span>
                     <h2 className="reveal-2">
-                        Découvrez nos formules d'abonnement
+                        Découvrez nos formules d'abonnements
                     </h2>
                     <p className="reveal-3">
-                        Ne laissez pas les opportunités passer, investissez dans votre avenir financier.
+                        Ne laissez pas les opportunitées passer, investissez dans votre avenir financier.
                     </p>
                 </div>
                 <div className="payment__body reveal">
@@ -32,7 +32,7 @@ const Payment = () => {
                                 Choisir le plan mensuel
                             </a>
                             <p>
-                                Démarrer GRATUITEMENT l’essaie pendant 14 jours
+                                Démarrer GRATUITEMENT l’essai pendant 14 jours
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Payment = () => {
                         <div className="payment-item-body">
                             <h6>Plan annuel <span>Réduction -15%</span></h6>
                             <h2>814.99€/an</h2>
-                            <small>Toutes taxes comprise</small>
+                            <small>Toutes taxes comprises</small>
                         </div>
                         <div className="payment-item-footer">
                             <a href="https://academyx-online.systeme.io/annuel" className="payment-btn payment-btn-phantom">

@@ -19,24 +19,24 @@ const Reseller = () => {
 
                     <div className="resellers-body-content reveal">
                         <h2 className="reveal-1">
-                            Bulls4Ever - Communauté Privé de Trading Crypto.
+                            Bulls4Ever - Communauté Privée de Trading Crypto.
                         </h2>
                         <p className="reveal-2">
-                            Construisons ensembles un lieu d'échange et d'opportunités de qualités.
+                            Construisons ensemble un lieu d'échange et d'opportunités de qualités.
                             Seul nous allons plus vite, ensembles nous allons plus loin !
                         </p>
                         <ul>
                             <li className="reveal-3">
                                 <img src="images/icons/svg/check-icon.svg" alt=""/>
-                                Des Stratégie de trading Automatisable à la pointe de la Technologie.
+                                Des Stratégies de trading Automatisable à la pointe de la Technologie.
                             </li>
                             <li className="reveal-4">
                                 <img src="images/icons/svg/check-icon.svg" alt=""/>
-                                Une Communauté Francophone basé sur l'Entre Aide.
+                                Une Communauté Francophone basée sur l'Entre Aide.
                             </li>
                             <li className="reveal-5">
                                 <img src="images/icons/svg/check-icon.svg" alt=""/>
-                                Une équipe expérimenté et soudé depuis plusieurs années.
+                                Une équipe expérimentée et soudée depuis plusieurs années.
                             </li>
                         </ul>
                         <div className="container reveal-6">
@@ -46,7 +46,7 @@ const Reseller = () => {
                         </div>
                     </div>
                     <div className="resellers-body-image reveal">
-                        <img src="images/icons/svg/person.svg" className="reveal-2" alt=""/>
+                        <img src="images/icons/svg/person.svg" className="reveal-2" alt="Image d'un robot"/>
                     </div>
 
                 </div>

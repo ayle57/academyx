@@ -1,0 +1,177 @@
+
+body, section {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1300px) {
+  section.faq div.faq-inner {
+    div.faq__footer {
+      margin: 20px 0;
+    }
+
+    div.faq__body {
+      padding: 0 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section.home div.home-inner div.home-container p {
+    width: 100%;
+  }
+  section.payment div.payment-inner {
+    margin-top: 20px;
+  }
+  section.features div.features-inner {
+    height: auto;
+
+    div.features__body {
+      section.slider div.slider-inner div.slider-body {
+        flex-direction: column;
+
+        div.slider-body-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin-top: 10px;
+
+          div.content {
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body {
+    flex-direction: column;
+
+    div.affiliation-body-chart {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    div.affiliation-body-cards {
+      margin-top: 20px;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  section.resellers div.resellers-inner {
+    div.resellers__body {
+      flex-direction: column;
+
+      div.resellers-body-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      div.resellers-body-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+  }
+  section.faq div.faq-inner {
+    padding: 0 5%;
+  }
+  section.payment div.payment-inner {
+    padding: 15vh 2%;
+    height: auto;
+
+    div.payment__body {
+      width: 100%;
+      flex-direction: column;
+
+      div.payment-item {
+        margin-top: 30px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 825px) {
+  section.phone div.phone-inner {
+    display: none;
+  }
+  body section.features div.features-inner {
+    margin-top: 20px;
+
+    div.features__header {
+      p {
+        max-width: 100% !important;
+      }
+    }
+  }
+  body section.payment div.payment-inner div.payment__header p {
+    max-width: 100% !important;
+  }
+  body section.faq div.faq-inner div.faq__header p {
+    max-width: 100% !important;
+  }
+  footer {
+    padding: 50px 5%;
+
+    div.footer-footer {
+      nav {
+        flex-direction: column;
+        text-align: center;
+
+        a {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  section.home div.home-inner div.home-container {
+    h1 {
+      font-size: 45px;
+    }
+    a {
+      text-align: center;
+    }
+  }
+  section.affiliation div.affiliation-inner div.affiliation__body div.affiliation-body-cards div.container a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section.home div.home-inner div.home-container div.container {
+    p {
+      margin: 0 10px;
+    }
+
+    a {
+      margin: 0 10px;
+    }
+  }
+  footer {
+    div.footer-footer {
+      p {
+        text-align: center;
+      }
+    }
+
+    div.footer-header {
+
+      flex-direction: column;
+      text-align: center;
+
+      div.footer-credit nav.footer-credit-nav {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

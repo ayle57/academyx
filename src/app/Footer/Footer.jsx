@@ -17,23 +17,28 @@ const Footer = () => {
                 <ul className="footer-social reveal-2">
                     <li className="reveal-2">
                         <a href="https://www.instagram.com/academyxonline/" target="blank">
-                            <img src="../images/icons/socials/instagram.svg" alt=""/>
+                            <img src="../images/icons/socials/instagram.svg" alt="Logo d'instagram"/>
                             Instagram
                         </a>
                     </li>
                     <li className="reveal-3">
                         <a href="https://www.tiktok.com/@academyx.online?_t=8j0Mjg2BVK5&_r=1" target="blank">
-                            <img src="../images/icons/socials/tiktok.svg" alt=""/>
+                            <img src="../images/icons/socials/tiktok.svg" alt="Logo de tiktok"/>
                             TikTok
                         </a>
                     </li>
                     <li className="reveal-4">
                         <a href="https://t.me/AcademyXOnline" target="blank">
-                            <img src="../images/icons/socials/telegram.svg" alt=""/>
+                            <img src="../images/icons/socials/telegram.svg" alt="Logo de telegram"/>
                             Telegram
                         </a>
                     </li>
-                    <li className="reveal-5"></li>
+                    <li className="reveal-5">
+                        <a href="https://discord.gg/FPc9JYRKxR" target="blank">
+                            <img src="../images/icons/socials/discord.png" alt="Logo de discord"/>
+                            Discord
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div className="footer-footer reveal">

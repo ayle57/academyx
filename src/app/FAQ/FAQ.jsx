@@ -71,7 +71,7 @@ const FAQ = () => {
 const faqData = [
     {
         question: 'Quels sont les types de marchés et de périodes de temps pris en charge par vos outils?',
-        answer: 'Tous les marchés et périodes de temps sont supporté par nos outils, néanmoins la stratégie devra être adapté en fonction du marché. La stratégie est optimisé pour des analyses court thème (M1, M3, M5).',
+        answer: 'Tous les marchés et périodes de temps sont supportées par nos outils, néanmoins la stratégie devra être adapter en fonction du marché. La stratégie est optimisée pour des analyses court thème (M1, M3, M5).',
     },
     {
         question: 'Existe-t-il des tutoriels ou des guides pour m\'aider à tirer le meilleur parti de vos outils?',
@@ -79,11 +79,11 @@ const faqData = [
     },
     {
         question: 'Puis-je personnaliser les paramètres des outils en fonction de ma stratégie de trading?',
-        answer: 'Il y a un certain nombre de variable que vous pourrez modifier sur les outils afin de les paramétrer comme bon vous semble.',
+        answer: 'Il y a un certain nombre de variables que vous pourrez modifier sur les outils afin de les paramétrer comme bon vous semble.',
     },
     {
         question: 'Est-ce que vos outils sont adaptés aux traders débutants?',
-        answer: 'Nos outils sont conçus pour une utilisation professionnel, mais nous ne sommes pas responsable de l\'utilisation que vous en aurez. Pour autant, nous avons fais tous notre possible pour rendre leurs utilisation simple et efficace.',
+        answer: 'Nos outils sont conçus pour une utilisation professionnelle, mais nous ne sommes pas responsable de l\'utilisation que vous en aurez. Pour autant, nous avons fais tout notre possible pour rendre leurs utilisations simple et efficace.',
     },
     {
         question: 'Quelles plateformes de trading sont compatibles avec vos outils?',
@@ -91,19 +91,19 @@ const faqData = [
     },
     {
         question: 'Qu\'est-ce qui distingue vos outils des autres disponibles sur le marché?',
-        answer: 'Nous ne sommes pas meilleur qu\'un autre, juste différent. Nous proposons une approche de l\'analyse technique que vous ne retrouverez nulle part ailleurs.',
+        answer: 'Nous ne sommes pas meilleurs qu\'un autre, juste différents. Nous proposons une approche de l\'analyse technique que vous ne retrouverez nulle part ailleurs.',
     },
     {
         question: 'Y a-t-il des prérequis techniques pour utiliser vos outils?',
-        answer: 'Il est conseillé d\'être munis d\'un abonnement au service de TradingView, mais il n\'est en aucun cas obligatoire d\'en avoir un.'
+        answer: 'Il est conseillé d\'être muni d\'un abonnement au service de TradingView, mais il n\'est en aucun cas obligatoire d\'en avoir un.'
     },
     {
         question: 'Garantissez-vous des performances?',
-        answer: 'En aucun cas nous ne garantirons de performance, nos outils ne sont pas automatisable, les performances dépendent directement de l\'utilisateurs.'
+        answer: 'En aucun cas nous ne garantirons de performance, nos outils ne sont pas automatisables, les performances dépendent directement de l\'utilisateur.'
     },
     {
         question: 'Pouvons-nous demander un remboursement?',
-        answer: 'Une période d\'essaie de 14 jours est à votre disposition, en réalisant une souscription à notre services, vous renoncez à votre droit de rétractation en vertu de l’article L121-21-8 du Code de la Consommation.'
+        answer: 'Une période d\'essai de 14 jours est à votre disposition, en réalisant une souscription à nos services, vous renoncez à votre droit de rétractation en vertu de l’article L121-21-8 du Code de la Consommation.'
     }
 ];
 

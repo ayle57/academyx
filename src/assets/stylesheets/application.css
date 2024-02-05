@@ -1072,6 +1072,10 @@ footer div.footer-header ul.footer-social li a {
   font-weight: 600;
   line-height: 24px;
 }
+footer div.footer-header ul.footer-social li a img {
+  width: 24px;
+  height: 24px;
+}
 footer div.footer-footer {
   border-top: 1px solid #4A4341;
   padding-top: 20px;

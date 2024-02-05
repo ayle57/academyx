@@ -25,7 +25,7 @@ const Slider = () => {
         },
         {
             title: 'Détection de Liquidité Inégalée',
-            description: 'Identifiez les opportunités avec une détection avancée des niveaux de liquidité cruciaux.',
+            description: 'Identifiez les opportunités avec une détection avancée des niveaux de liquidités cruciaux.',
             image: 'images/charts/chart4.png',
         },
     ];
