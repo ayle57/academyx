@@ -14,7 +14,7 @@ const Slider = () => {
             image: 'images/charts/chart1.png',
         },
         {
-            title: 'Localiser des Niveaux',
+            title: 'Localisation des Niveaux',
             description: 'Prenez de l\'avance sur le marché et transformez chaque mouvement du marché en une opportunité stratégique.',
             image: 'images/charts/chart2.png',
         },
