@@ -46,6 +46,13 @@ const Payment = () => {
                             <h2>814.99€/an</h2>
                             <small>Toutes taxes comprises</small>
                         </div>
+                        <ul className="payment-item-infos">
+                            <li>12h d'accompagnements par mois</li>
+                            <li>Accès aux outils de trading</li>
+                            <li>Accès à la documentation</li>
+                            <li>Accès à la stratégie de trading</li>
+                            <li>Accès au groupe VIP</li>
+                        </ul>
                         <div className="payment-item-footer">
                             <a href="https://academyx-online.systeme.io/annuel" className="payment-btn payment-btn-phantom">
                                 Choisir le plan annuel
@@ -66,7 +73,7 @@ const Payment = () => {
                             <br />
                         </div>
                         <div className="payment-item-footer">
-                            <a href="https://forms.gle/epb1sq8an4t5jV8g6" className="payment-btn">
+                            <a href="https://academyx-online.systeme.io/contact" className="payment-btn">
                                 Contacter l'équipe
                             </a>
                         </div>

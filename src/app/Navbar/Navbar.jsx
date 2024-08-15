@@ -65,6 +65,11 @@ function Navbar() {
                                 nous rejoindre
                             </a>
                         </li>
+                        <li>
+                            <a href="https://blog.academyxonline.com/">
+                                Blog
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <a className={`navbar-burger ${isBurger ? 'active' : ''}`} onClick={toggleBurger}>
@@ -72,7 +77,7 @@ function Navbar() {
                 </a>
                 <div className="navbar-button reveal-3">
                     <a href="/#subscription" className="btn btn-phantom">
-                        Bénéficier de -15% de réduction
+                        Formez vous <span>gratuitement</span>
                     </a>
                 </div>
             </nav>

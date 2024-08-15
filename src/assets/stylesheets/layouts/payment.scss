@@ -82,7 +82,7 @@ section.payment {
         flex: 0 0 33.33%;
         max-width: 33.33%;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
@@ -167,6 +167,27 @@ section.payment {
             line-height: 20px; /* 142.857% */
           }
         }
+      }
+    }
+
+    ul.payment-item-infos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 0 30px;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 10px;
+        color: $dark_grey;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
       }
     }
   }

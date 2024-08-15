@@ -379,16 +379,19 @@ section.slider div.slider-inner div.slider-header img {
   width: 100%;
   height: 100%;
   transition: 0.2s;
+  border-radius: 20px;
 }
 section.slider div.slider-inner div.slider-body {
   display: flex;
   justify-content: space-around;
   gap: 0 20px;
   padding-top: 10px;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 section.slider div.slider-inner div.slider-body div.slider-body-item {
-  flex: 0 0 25%;
-  max-width: 25%;
+  flex: 0 0 23%;
+  max-width: 23%;
   text-align: center;
   cursor: pointer;
   transition: background 0.2s;
@@ -546,7 +549,7 @@ section.payment div.payment-inner div.payment__body div.payment-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -615,6 +618,25 @@ section.payment div.payment-inner div.payment__body div.payment-item div.payment
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 142.857% */
+}
+section.payment div.payment-inner ul.payment-item-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0 30px;
+}
+section.payment div.payment-inner ul.payment-item-infos li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  color: #1F1714;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 }
 
 section.affiliation div.affiliation-inner {
@@ -1344,6 +1366,11 @@ body, section {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
+  transition: 300ms;
+}
+.btn span {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .btn.btn-primary {
   background: linear-gradient(90deg, #FAB513 0.1%, #FFC301 99.92%);

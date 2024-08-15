@@ -22,7 +22,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className="reveal-3">
-                        <a href="https://www.tiktok.com/@academyx.online?_t=8j0Mjg2BVK5&_r=1" target="blank">
+                        <a href="https://www.tiktok.com/@academyxonline" target="blank">
                             <img src="../images/icons/socials/tiktok.svg" alt="Logo de tiktok"/>
                             TikTok
                         </a>
@@ -34,7 +34,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className="reveal-5">
-                        <a href="https://discord.gg/FPc9JYRKxR" target="blank">
+                        <a href="https://discord.gg/ejdu9T4HGm" target="blank">
                             <img src="../images/icons/socials/discord.png" alt="Logo de discord"/>
                             Discord
                         </a>
