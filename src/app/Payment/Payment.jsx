@@ -22,11 +22,18 @@ const Payment = () => {
                         <div className="payment-item-icon">
                             <img src="images/icons/tools/zap.png" alt=""/>
                         </div>
-                        <div className="payment-item-body">
+                        <div className="payment-item-body white">
                             <h6>Plan mensuel</h6>
                             <h2>79.99€/mois</h2>
                             <small>Toutes taxes comprise</small>
                         </div>
+                        <ul className="payment-item-infos white">
+                            <li>12h d'accompagnements par mois</li>
+                            <li>Accès aux outils de trading</li>
+                            <li>Accès à la documentation</li>
+                            <li>Accès à la stratégie de trading</li>
+                            <li>Accès au groupe VIP</li>
+                        </ul>
                         <div className="payment-item-footer">
                             <a href="https://academyx-online.systeme.io/mensuel" className="payment-btn">
                                 Choisir le plan mensuel

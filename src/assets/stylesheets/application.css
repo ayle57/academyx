@@ -401,7 +401,7 @@ section.slider div.slider-inner div.slider-body div.slider-body-item:hover .cont
   background: rgba(32, 26, 24, 0.41);
 }
 section.slider div.slider-inner div.slider-body div.slider-body-item.active .content {
-  border-radius: var(--radius-xl, 12px);
+  border: 1px solid rgb(255, 199, 1);
   background: #201A18;
 }
 section.slider div.slider-inner div.slider-body div.slider-body-item.active .content::before {
@@ -414,6 +414,8 @@ section.slider div.slider-inner div.slider-body div.slider-body-item .content {
   height: 100%;
   position: relative;
   padding: var(--spacing-xl, 16px) var(--spacing-lg, 12px);
+  border: 1px solid rgba(255, 199, 1, 0.1);
+  border-radius: var(--radius-xl, 12px);
 }
 section.slider div.slider-inner div.slider-body div.slider-body-item .content::before {
   content: "";
@@ -625,6 +627,9 @@ section.payment div.payment-inner ul.payment-item-infos {
   align-items: center;
   flex-direction: column;
   gap: 0 30px;
+}
+section.payment div.payment-inner ul.payment-item-infos.white li {
+  color: #fefefe;
 }
 section.payment div.payment-inner ul.payment-item-infos li {
   display: flex;

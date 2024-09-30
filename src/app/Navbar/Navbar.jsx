@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
     const [isBurger, setIsBurger] = useState(false);
@@ -52,7 +52,7 @@ function Navbar() {
                         </li>
                         <li>
                             <a href="/#faq">
-                                f.a.q.
+                                F.A.Q.
                             </a>
                         </li>
                         <li>
@@ -76,7 +76,7 @@ function Navbar() {
                     <img src="images/icons/tools/menu.png" alt="Logo d'un menu burger"/>
                 </a>
                 <div className="navbar-button reveal-3">
-                    <a href="/#subscription" className="btn btn-phantom">
+                    <a href="https://blog.academyxonline.com/" className="btn btn-phantom">
                         Formez vous <span>gratuitement</span>
                     </a>
                 </div>
@@ -97,7 +97,7 @@ function Navbar() {
                         </li>
                         <li>
                             <a href="/#faq">
-                                f.a.q.
+                                F.A.Q.
                             </a>
                         </li>
                         <li>
@@ -115,10 +115,15 @@ function Navbar() {
                                 nous rejoindre
                             </a>
                         </li>
+                        <li>
+                            <a href="https://blog.academyxonline.com/">
+                                Blog
+                            </a>
+                        </li>
                     </ul>
                     <div className="navbar-button">
-                        <a href="/#subscription" className="btn btn-phantom">
-                            Bénéficier de -15% de réduction
+                        <a href="https://blog.academyxonline.com/" className="btn btn-phantom">
+                        Formez vous <span>gratuitement</span>
                         </a>
                     </div>
                 </div>

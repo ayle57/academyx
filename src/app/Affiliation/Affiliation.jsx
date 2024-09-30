@@ -1,3 +1,5 @@
+import chart from '/images/charts/chart.svg';
+import toll from '/images/icons/tools/toll.png';
 
 const Affiliation = () => {
     return (
@@ -15,7 +17,7 @@ const Affiliation = () => {
 
                 <div className="affiliation__body reveal">
                     <div className="affiliation-body-chart reveal-1">
-                        <img src="images/charts/chart.svg" alt=""/>
+                        <img src={chart} alt=""/>
                     </div>
                     <div className="affiliation-body-cards">
                         <div className="affiliation-card-container">
@@ -46,7 +48,7 @@ const Affiliation = () => {
                         </div>
                         <div className="container reveal-4">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-PP12DdMeOH9Tlbbh0lwkulsEA0EZEnfbYEXOdN1tGpx87A/viewform?usp=pp_url" target="blank">
-                                Postuler ici <img src="images/icons/tools/toll.png" alt=""/>
+                                Postuler ici <img src={toll} alt=""/>
                             </a>
                         </div>
                     </div>

@@ -177,6 +177,12 @@ section.payment {
       flex-direction: column;
       gap: 0 30px;
 
+      &.white {
+        li {
+          color: #fefefe;
+        }
+      }
+
       li {
         display: flex;
         justify-content: center;

@@ -9,7 +9,6 @@ import Mentions from "./app/Legals/Mentions.jsx";
 import CGU from "./app/Legals/CGU.jsx";
 import CGV from "./app/Legals/CGV.jsx";
 import Error404 from "./app/Errors/404.jsx";
-import Login from "./app/Admin/Login/Login.jsx";
 
 function App() {
     useEffect(() => {
@@ -25,8 +24,6 @@ function App() {
                     <Route path="/mentions" element={<Mentions />} />
                     <Route path="/cgu" element={<CGU />} />
                     <Route path="/cgv" element={<CGV />} />
-
-                    <Route path="/admin/" element={<Login />}/>
 
                     <Route path="*" element={<Error404 />} />
                 </Routes>
